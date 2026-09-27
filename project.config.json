@@ -1,0 +1,18 @@
+{
+  "description": "AI 微信小程序助手",
+  "packOptions": { "ignore": [] },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "compileHotReLoad": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.5.0",
+  "appid": "wx698cabd2f63976ee",
+  "projectname": "ai-wechat-miniapp",
+  "miniprogramRoot": "./",
+  "condition": {}
+}

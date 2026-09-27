@@ -1,0 +1,25 @@
+<view class="page home-page">
+  <view class="hero">
+    <view class="eyebrow">AI ASSISTANT</view>
+    <view class="hero-title">你好，今天想聊些什么？</view>
+    <view class="hero-subtitle">随时提问、整理思路，开启一段新的对话。</view>
+    <button class="primary-button hero-button" bindtap="startChat">＋&nbsp; 开始新对话</button>
+  </view>
+
+  <view class="section-head">
+    <text class="section-title">最近对话</text>
+    <text class="more" bindtap="openHistory">查看全部 ›</text>
+  </view>
+  <view wx:if="{{recent.length}}" class="recent-list">
+    <view wx:for="{{recent}}" wx:key="id" class="card recent-card" data-id="{{item.id}}" bindtap="openConversation">
+      <view class="recent-title">{{item.title}}</view>
+      <view class="recent-meta">{{item.displayTime}}<text class="arrow">›</text></view>
+    </view>
+  </view>
+  <view wx:else class="card empty-card">
+    <view class="empty-icon">✦</view>
+    <view class="empty-title">还没有对话</view>
+    <view class="muted">开始一次聊天，你的记录会保存在这里</view>
+  </view>
+  <view class="tip">对话记录仅保存在当前设备</view>
+</view>

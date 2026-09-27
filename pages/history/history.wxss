@@ -1,0 +1,11 @@
+.history-page { padding-top: 24rpx; }
+.history-card { margin-bottom: 18rpx; padding: 26rpx; }
+.history-top { display: flex; justify-content: space-between; align-items: center; }
+.history-title { overflow: hidden; max-width: 72%; white-space: nowrap; text-overflow: ellipsis; font-size: 28rpx; font-weight: 600; }
+.history-time { color: #969dac; font-size: 22rpx; }
+.history-preview { overflow: hidden; margin-top: 16rpx; color: #7d8796; white-space: nowrap; text-overflow: ellipsis; font-size: 24rpx; }
+.history-actions { display: flex; justify-content: flex-end; margin-top: 18rpx; }
+.delete { padding: 6rpx 0 6rpx 20rpx; color: #dc7770; font-size: 23rpx; }
+.empty { margin-top: 20vh; padding: 48rpx 20rpx; text-align: center; color: #89909f; font-size: 24rpx; }
+.empty-icon { color: #8094f8; font-size: 54rpx; }
+.empty-title { margin: 18rpx 0 10rpx; color: #303646; font-size: 30rpx; font-weight: 600; }

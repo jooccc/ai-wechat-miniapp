@@ -1,0 +1,3 @@
+<view class="message-row {{message.role === 'user' ? 'user-row' : 'assistant-row'}}">
+  <view class="bubble {{message.role === 'user' ? 'user-bubble' : 'assistant-bubble'}}">{{message.content}}</view>
+</view>

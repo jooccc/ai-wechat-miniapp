@@ -1,0 +1,11 @@
+.settings-page { padding-top: 28rpx; }
+.profile { display: flex; align-items: center; padding: 34rpx 28rpx; }
+.profile-icon { display: flex; align-items: center; justify-content: center; width: 92rpx; height: 92rpx; margin-right: 22rpx; border-radius: 28rpx; color: #fff; background: linear-gradient(135deg, #7189ff, #8a66ed); font-size: 42rpx; }
+.profile-title { margin-bottom: 8rpx; font-size: 31rpx; font-weight: 600; }
+.group-title { margin: 36rpx 8rpx 16rpx; color: #858d9c; font-size: 24rpx; }
+.settings-card { padding: 0 26rpx; }
+.setting-row { display: flex; justify-content: space-between; align-items: center; min-height: 98rpx; border-bottom: 1rpx solid #f0f1f5; font-size: 27rpx; }
+.setting-row:last-of-type { border-bottom: 0; }
+.clickable { cursor: pointer; }
+.danger { color: #dc7770; font-size: 24rpx; }
+.privacy-note { padding: 8rpx 0 24rpx; color: #969dac; font-size: 22rpx; line-height: 1.6; }

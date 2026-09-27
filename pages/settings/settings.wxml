@@ -1,0 +1,16 @@
+<view class="page settings-page">
+  <view class="profile card">
+    <view class="profile-icon">✦</view>
+    <view><view class="profile-title">AI 助手</view><view class="muted">轻松开始每一次对话</view></view>
+  </view>
+  <view class="group-title">数据与隐私</view>
+  <view class="card settings-card">
+    <view class="setting-row"><text>本地对话记录</text><text class="muted">{{conversationCount}} 条</text></view>
+    <view class="setting-row clickable" bindtap="clearHistory"><text>清空历史记录</text><text class="danger">清空 ›</text></view>
+  </view>
+  <view class="group-title">应用</view>
+  <view class="card settings-card">
+    <view class="setting-row clickable" bindtap="showAbout"><text>关于</text><text class="muted">第一版 ›</text></view>
+    <view class="privacy-note">对话记录仅存储在本机。AI 服务接入后，发送的消息将由所配置的后端处理。</view>
+  </view>
+</view>

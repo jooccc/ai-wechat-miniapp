@@ -1,0 +1,16 @@
+.home-page { padding-top: 44rpx; }
+.hero { padding: 42rpx 34rpx; border-radius: 30rpx; color: #fff; background: linear-gradient(135deg, #637df8, #795ce8); box-shadow: 0 20rpx 44rpx rgba(87, 105, 231, .18); }
+.eyebrow { font-size: 20rpx; letter-spacing: 4rpx; opacity: .75; }
+.hero-title { margin-top: 28rpx; font-size: 40rpx; font-weight: 650; line-height: 1.4; }
+.hero-subtitle { margin-top: 12rpx; font-size: 25rpx; line-height: 1.6; opacity: .85; }
+.hero-button { margin: 36rpx 0 0; width: 100%; color: #536ff0; background: #fff; }
+.section-head { display: flex; justify-content: space-between; align-items: center; margin: 42rpx 4rpx 20rpx; }
+.more { color: #7d879a; font-size: 24rpx; }
+.recent-card { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16rpx; padding: 26rpx; }
+.recent-title { overflow: hidden; flex: 1; white-space: nowrap; text-overflow: ellipsis; font-weight: 500; }
+.recent-meta { margin-left: 18rpx; color: #969dac; font-size: 22rpx; }
+.arrow { margin-left: 16rpx; font-size: 32rpx; }
+.empty-card { padding: 44rpx 24rpx; text-align: center; color: #626b7c; font-size: 24rpx; }
+.empty-icon { color: #7890ff; font-size: 42rpx; }
+.empty-title { margin: 12rpx 0; color: #303646; font-size: 28rpx; font-weight: 600; }
+.tip { margin-top: 28rpx; text-align: center; color: #a3aab6; font-size: 22rpx; }
